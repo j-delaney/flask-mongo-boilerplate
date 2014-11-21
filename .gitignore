@@ -55,3 +55,11 @@ target/
 
 # Macs
 .DS_STORE
+
+# IntelliJ
+*.iml
+.idea/
+out/
+.idea_modules/
+*.ipr
+*.iws
