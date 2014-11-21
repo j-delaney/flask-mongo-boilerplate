@@ -1,0 +1,4 @@
+flask==0.10.1
+pymongo==2.5
+mongokit==0.9.1.1
+bson==0.3.3
