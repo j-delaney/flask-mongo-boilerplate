@@ -1,3 +1,6 @@
-<body>
-	Hello {{user.name}}! This is visit {{user.visits}}
-</body>
+{% extends "base.html" %}
+{% block title %}User View{% endblock %}
+
+{% block body %}
+<p>Hello {{user.name}}! This is visit {{user.visits}}</p>
+{% endblock %}
